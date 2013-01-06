@@ -1,5 +1,7 @@
 "use strict";
 
+var PERSIST_DATABASES = false;
+
 // use query parameter testFiles if present,
 // eg: test.html?testFiles=test.basics.js
 var testFiles = window.location.search.match(/[?&]testFiles=([^&]+)/);
